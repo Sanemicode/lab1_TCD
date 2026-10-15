@@ -17,8 +17,8 @@ Faker.seed(42)
 random.seed(42)
 
 DB_URL = os.getenv(
-    "DWH_URL", "postgresql://admin:adminpassword@localhost:5432/music_dwh"
-)
+    "DWH_URL", "postgresql+psycopg2://admin:adminpassword@localhost:5433/music_dwh"
+   )
 GENRES = ["Pop", "Rock", "Hip-Hop", "Electronic", "Jazz", "Classical", "Indie", "Metal"]
 PLANS = {"Free": 0.0, "Individual": 9.99, "Duo": 12.99, "Family": 15.99, "Student": 4.99}
 
