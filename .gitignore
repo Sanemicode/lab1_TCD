@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+data_lake/
+.env
+
+# dbt
+music_dbt/target/
+music_dbt/logs/
+music_dbt/dbt_packages/
+# локальні доступи до БД не комітимо (в репозиторій іде profiles.yml.example)
+music_dbt/profiles.yml

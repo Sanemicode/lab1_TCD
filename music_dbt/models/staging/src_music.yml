@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw_music
+    schema: raw
+    tables:
+      - name: artists
+      - name: tracks
+      - name: listeners
+      - name: streams
+      - name: subscriptions

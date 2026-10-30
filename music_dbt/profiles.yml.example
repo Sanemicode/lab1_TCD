@@ -1,0 +1,13 @@
+music_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: admin
+      password: adminpassword
+      port: 5433
+      dbname: music_dwh
+      schema: analytics   # схема, куди dbt записує готові моделі
+      threads: 4
+      keepalives_idle: 0

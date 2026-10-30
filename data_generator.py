@@ -1,10 +1,3 @@
-"""ЛР №1 (варіант 13: Стрімінг музики) — генерація OLTP-даних та завантаження в raw-шар DWH.
-
-Виміри: listeners, tracks, artists
-Факти:  streams, subscriptions
-Навмисні "брудні" дані: 10% NULL email, ~5% дублікатів слухачів,
-20% NULL у subscriptions.promo_code, ~3% NULL у streams.device.
-"""
 import os
 import random
 
